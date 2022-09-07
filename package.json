@@ -1,0 +1,34 @@
+{
+  "name": "bayramlibahram",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @bayramlibahram\r - 👀 I’m interested in Programming\r - 🌱 I’m currently learning ReactJs\r - 💞️ I’m looking to collaborate on ...\r - 📫 How to reach me ...",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "server": "nodemon server.js --ignore client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \" npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayramlibahram/bayramlibahram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayramlibahram/bayramlibahram/issues"
+  },
+  "homepage": "https://github.com/bayramlibahram/bayramlibahram#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.19"
+  }
+}
