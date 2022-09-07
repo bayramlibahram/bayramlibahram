@@ -1,5 +1,5 @@
-const {express, app, config} = require("./modules");
-const path = require("path");
+const {express, app, config, path} = require("./modules");
+
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
