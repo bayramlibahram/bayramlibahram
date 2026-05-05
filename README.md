@@ -4,9 +4,9 @@
 
 ### Full-Stack JavaScript Developer · Backend-Focused Engineer · System Builder
 
-I build scalable web platforms, secure APIs, admin systems, dashboards, automation tools, and AI-powered digital products.
+I build scalable web platforms, secure APIs, admin systems, dashboards, automation tools, AI-powered solutions, and production-ready digital products.
 
-My engineering focus is on **clean architecture**, **backend systems**, **database design**, **performance**, **security**, **DevOps**, and building software that can move from idea to production.
+My engineering focus is on **clean architecture**, **backend systems**, **database design**, **UI/UX implementation**, **performance**, **security**, **Linux-based deployment**, and building software that can move from idea to production.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Bahram%20Bayramli-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bahrambayramli)
 [![Email](https://img.shields.io/badge/Email-bayramlibahram%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bayramlibahram@gmail.com)
@@ -18,13 +18,13 @@ My engineering focus is on **clean architecture**, **backend systems**, **databa
 
 ## About Me
 
-I'm a Full-Stack JavaScript Developer with a strong focus on backend architecture, scalable systems, and production-ready applications.
+I'm a Full-Stack JavaScript Developer with a strong focus on backend architecture, scalable systems, clean UI implementation, and production-ready applications.
 
-I work across the full software development lifecycle: planning architecture, designing databases, building APIs, implementing frontend interfaces, managing deployments, optimizing performance, and improving system reliability.
+I work across the full software development lifecycle: planning architecture, designing databases, building APIs, implementing frontend interfaces, improving UI/UX structure, managing deployments, optimizing performance, and improving system reliability.
 
 My main stack includes **JavaScript**, **TypeScript**, **Node.js**, **Bun.js**, **Express.js**, **Next.js**, **React**, **PostgreSQL**, **Redis**, **Prisma**, **Docker**, **Nginx**, and Linux-based deployment environments.
 
-I also work with **Python**, **Go**, **Gin**, **PgBouncer**, CI/CD pipelines, authentication systems, caching, background processes, and API security.
+I also work with **Python**, **Go**, **Gin**, **PgBouncer**, CI/CD pipelines, authentication systems, caching, background processes, API security, and server-side infrastructure.
 
 ---
 
@@ -33,19 +33,21 @@ I also work with **Python**, **Go**, **Gin**, **PgBouncer**, CI/CD pipelines, au
 ```ts
 const bahram = {
   role: "Full-Stack JavaScript Developer",
-  focus: "Backend Architecture, Scalable Systems, and Production Engineering",
+  focus: "Backend Architecture, Scalable Systems, UI Implementation, and Production Engineering",
 
   mindset: [
     "Build systems that are clean, reliable, and maintainable",
-    "Think beyond features: architecture, security, performance, and deployment",
+    "Think beyond features: architecture, security, performance, design, and deployment",
     "Design APIs and databases with long-term scalability in mind",
-    "Write code that future developers can understand and extend",
+    "Implement interfaces that are clean, responsive, and user-friendly",
+    "Write code that future developers can understand, extend, and operate",
   ],
 
   currentFocus: [
     "Advanced backend architecture",
     "High-performance APIs",
     "PostgreSQL optimization",
+    "Linux server administration",
     "AI-powered software systems",
     "DevOps and infrastructure",
     "Secure production deployments",
@@ -67,6 +69,8 @@ const bahram = {
 - Automation systems
 - Real-time applications
 - Internal business tools
+- Landing pages and corporate websites
+- UI/UX-focused frontend interfaces
 - Deployment-ready production systems
 
 ---
@@ -114,7 +118,7 @@ Key areas:
 
 ---
 
-### Frontend Engineering
+### Frontend Engineering & UI Implementation
 
 I build frontend applications with **React**, **Next.js**, **TypeScript**, and modern UI architecture.
 
@@ -130,26 +134,78 @@ Frontend focus:
 - Authentication-aware frontend flows
 - Clean page and layout structure
 - UI/UX implementation
+- Reusable design systems
+- Pixel-aware frontend development
 
 ---
 
-### DevOps & Production
+### Design & Visual Systems
 
-I work with Linux-based production environments and deployment workflows.
+I care about the visual and experience layer of software, not only the code behind it.
 
-DevOps focus:
+Design-related focus:
+
+- Clean and modern UI layouts
+- Responsive design systems
+- Landing page structure
+- Dashboard and admin panel UI
+- Typography, spacing, and visual hierarchy
+- Brand-aware web interfaces
+- Component consistency
+- User-friendly product flows
+- Premium web presentation
+- Practical UI/UX decisions for real projects
+
+---
+
+### Architecture Patterns I Follow
+
+I prefer structured project architecture where responsibilities are separated clearly and systems remain easy to maintain as they grow.
+
+Common patterns and practices I follow:
+
+- Layered architecture
+- Controller-Service-Repository pattern
+- DTO-based data flow
+- Validation-first request handling
+- Middleware-based request processing
+- Dependency Injection where useful
+- Unit of Work pattern for transactions
+- Domain-focused error handling
+- Modular feature-based structure
+- API-first backend design
+- Clean separation between business logic and infrastructure
+- Scalable frontend folder structure
+- Reusable UI components
+- Environment-based configuration
+- Production-safe logging and error handling
+
+---
+
+### Linux, DevOps & Production
+
+I work with Linux-based environments and continuously improve my server, deployment, and infrastructure skills.
+
+Linux and DevOps areas I work with and learn:
 
 - Linux server management
+- Ubuntu server deployment
+- Arch Linux workstation usage
+- Shell commands and terminal workflows
+- SSH access and server hardening basics
+- File permissions and process management
+- System services with systemd
+- Nginx reverse proxy configuration
+- SSL certificates with Let's Encrypt
+- Cloudflare DNS and proxy setup
 - Docker-based deployments
-- Nginx reverse proxy
-- SSL configuration
 - CI/CD with GitHub Actions
-- Environment configuration
-- Process management
-- Logging
-- Monitoring basics
-- Secure deployment practices
-- Cloud platforms such as DigitalOcean and Azure
+- Environment variables and production configuration
+- Log inspection and debugging
+- Firewall basics with UFW
+- PostgreSQL service management
+- Deployment troubleshooting
+- Performance and reliability improvements
 
 ---
 
@@ -174,7 +230,7 @@ DevOps focus:
 ![JWT](https://img.shields.io/badge/JWT-111827?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-111827?style=for-the-badge&logo=socket.io&logoColor=white)
 
-### Frontend
+### Frontend & Design
 
 ![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=next.js&logoColor=white)
@@ -186,6 +242,7 @@ DevOps focus:
 ![Redux](https://img.shields.io/badge/Redux-111827?style=for-the-badge&logo=redux&logoColor=764ABC)
 ![React Query](https://img.shields.io/badge/React_Query-111827?style=for-the-badge&logo=reactquery&logoColor=FF4154)
 ![React Router](https://img.shields.io/badge/React_Router-111827?style=for-the-badge&logo=reactrouter&logoColor=CA4245)
+![Figma](https://img.shields.io/badge/Figma-111827?style=for-the-badge&logo=figma&logoColor=F24E1E)
 
 ### Database & Data Layer
 
@@ -200,11 +257,14 @@ DevOps focus:
 ### DevOps, Cloud & Infrastructure
 
 ![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-111827?style=for-the-badge&logo=archlinux&logoColor=1793D1)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-111827?style=for-the-badge&logo=ubuntu&logoColor=E95420)
 ![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Nginx](https://img.shields.io/badge/Nginx-111827?style=for-the-badge&logo=nginx&logoColor=009639)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=2088FF)
 ![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-111827?style=for-the-badge&logo=cloudflare&logoColor=F38020)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-111827?style=for-the-badge&logo=digitalocean&logoColor=0080FF)
 ![Azure](https://img.shields.io/badge/Azure-111827?style=for-the-badge&logo=microsoftazure&logoColor=0078D4)
 ![Heroku](https://img.shields.io/badge/Heroku-111827?style=for-the-badge&logo=heroku&logoColor=430098)
@@ -231,6 +291,31 @@ I prefer backend systems that are:
 
 ---
 
+## Project Structure Philosophy
+
+```txt
+src/
+  modules/
+    feature/
+      controller
+      service
+      repository
+      dto
+      validation
+      routes
+  shared/
+    errors
+    logger
+    middleware
+    utils
+  config/
+  database/
+```
+
+I like project structures where each layer has a clear purpose and the codebase can grow without becoming chaotic.
+
+---
+
 ## Production Engineering Focus
 
 ```txt
@@ -239,7 +324,31 @@ Performance  -> Caching, indexing, query optimization, connection pooling
 Reliability  -> Logging, error handling, stable deployments
 Scalability  -> Clean architecture, stateless services, background jobs
 DevOps       -> Docker, Nginx, CI/CD, Linux, cloud deployment
+Design       -> Consistent UI, responsive layouts, reusable components
 ```
+
+---
+
+## What I Am Learning & Improving
+
+I believe engineering growth comes from building real systems, debugging real issues, and improving through practice.
+
+Currently learning and improving:
+
+- Advanced backend architecture
+- Bun.js runtime and tooling
+- PostgreSQL performance and PgBouncer
+- Go backend services with Gin
+- Python for automation and backend tooling
+- AI-powered application development
+- DevOps and production deployment
+- Linux server administration
+- Arch Linux and Ubuntu workflows
+- Nginx, SSL, DNS, and Cloudflare configuration
+- Secure API design
+- System design and scalable architecture
+- Clean frontend architecture with Next.js and React
+- UI/UX implementation and design consistency
 
 ---
 
@@ -249,9 +358,10 @@ DevOps       -> Docker, Nginx, CI/CD, Linux, cloud deployment
 Build simple.
 Scale carefully.
 Secure by default.
+Design with purpose.
 Optimize with evidence.
-Design for maintainability.
-Ship production-ready systems.
+Deploy with confidence.
+Improve continuously.
 ```
 
 Good software should be:
@@ -263,22 +373,7 @@ Good software should be:
 - Easy to deploy
 - Easy to monitor
 - Useful for real business problems
-
----
-
-## Current Focus
-
-I'm currently improving and working deeper on:
-
-- Advanced Node.js backend architecture
-- Bun.js runtime and tooling
-- PostgreSQL performance and PgBouncer
-- Go backend services with Gin
-- AI-powered application development
-- DevOps and production deployment
-- Secure API design
-- System design and scalable architecture
-- Clean frontend architecture with Next.js and React
+- Designed with real users in mind
 
 ---
 
@@ -320,7 +415,7 @@ I'm currently improving and working deeper on:
 
 <div align="center">
 
-### Building scalable systems, solving real problems, and improving every day.
+### Building scalable systems, designing clean interfaces, solving real problems, and improving every day.
 
 ![Profile Views](https://visitcount.itsvg.in/api?id=bayramlibahram&icon=0&color=6)
 
