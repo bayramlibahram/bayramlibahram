@@ -291,25 +291,111 @@ I prefer backend systems that are:
 
 ---
 
-## Project Structure Philosophy
+## Project Structure & Architecture Philosophy
+
+I follow architecture patterns that help projects stay maintainable as they grow. I prefer clear boundaries between business logic, infrastructure, application flow, and external frameworks.
+
+The main ideas I follow are inspired by:
+
+- Clean Architecture
+- Uncle Bob's architecture principles
+- Domain-Driven Design
+- SOLID principles
+- Layered architecture
+- Modular architecture
+- Feature-based structure
+- Separation of concerns
+- Dependency inversion
+- Use case driven application design
 
 ```txt
 src/
   modules/
     feature/
-      controller
-      service
-      repository
-      dto
-      validation
-      routes
+      presentation/
+        controller
+        routes
+      application/
+        use-cases
+        services
+        dto
+      domain/
+        entities
+        value-objects
+        domain-services
+        errors
+        interfaces
+      infrastructure/
+        repositories
+        persistence
+        external-services
+      validation/
+        schemas
   shared/
     errors
     logger
     middleware
     utils
+    types
   config/
   database/
+    migrations
+    seeds
+    prisma
+```
+
+### Clean Architecture Mindset
+
+```txt
+Frameworks & Drivers
+        ↓
+Interface Adapters
+        ↓
+Application Use Cases
+        ↓
+Domain / Enterprise Business Rules
+```
+
+I try to keep the most important business rules independent from frameworks, databases, HTTP layers, and external services.
+
+### Domain-Driven Design Mindset
+
+```txt
+Domain
+  Entity
+  Value Object
+  Aggregate
+  Repository Interface
+  Domain Service
+  Domain Error
+
+Application
+  Use Case
+  DTO
+  Command
+  Query
+
+Infrastructure
+  Database Repository
+  ORM Model
+  External API Client
+  File Storage
+```
+
+The goal is to make business logic expressive, testable, and independent from infrastructure details.
+
+### Practical Backend Flow
+
+```txt
+Request
+  -> Route
+  -> Controller
+  -> Validation
+  -> Use Case / Service
+  -> Domain Logic
+  -> Repository Interface
+  -> Infrastructure Repository
+  -> Database
 ```
 
 I like project structures where each layer has a clear purpose and the codebase can grow without becoming chaotic.
